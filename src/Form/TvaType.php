@@ -14,7 +14,7 @@ class TvaType extends AbstractType
     {
         $builder
         ->add('tva',TextType::class) 
-        ->add('save',SubmitType::class) 
+        ->add('Convertir_en_TTC',SubmitType::class) 
 
         ;
     }
